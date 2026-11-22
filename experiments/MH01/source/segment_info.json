@@ -1,0 +1,19 @@
+{
+  "dataset_name": "EuRoC MAV",
+  "sequence_name": "MH_01_easy",
+  "dataset_path": "E:\\SamsungXR\\dataset\\euroc\\MH_01_easy",
+  "sequence_start_timestamp_ns": 1403636579758555392,
+  "sequence_end_timestamp_ns": 1403636763853555456,
+  "original_sequence_duration_s": 184.095000064,
+  "segment_duration_s": 15.0,
+  "nominal_duration_s": 15.0,
+  "actual_duration_s": 15.000000000000002,
+  "start_timestamp_ns": 1403636595738555392,
+  "end_timestamp_ns": 1403636610738555392,
+  "start_time_relative_to_sequence_s": 15.98,
+  "end_time_relative_to_sequence_s": 30.98,
+  "imu_sample_count": 3001,
+  "gt_sample_count": 3001,
+  "imu_median_dt_ms": 4.999936,
+  "selection_seed": 42
+}

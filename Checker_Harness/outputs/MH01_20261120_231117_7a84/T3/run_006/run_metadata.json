@@ -1,0 +1,77 @@
+{
+  "run_id": "run_006",
+  "tier": "T3",
+  "random_seed": 1382689815,
+  "parent_experiment_id": "MH01_20261120_231117_7a84",
+  "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+  "execution_status": "SUCCESS",
+  "start_time": "2026-11-20T23:11:28.289554",
+  "end_time": "2026-11-20T23:11:29.555406",
+  "duration_seconds": 1.2658517360687256,
+  "error_details": null,
+  "tier_metadata": {
+    "tier": "T3",
+    "description": "2-second sensor degradation with exact clean pre- and post-regions",
+    "random_seed": 1382689815,
+    "degradation_start_time_s": 6.589564927424144,
+    "degradation_end_time_s": 8.589564927424144,
+    "degradation_duration_s": 2.0,
+    "start_timestamp_ns": 1403636586793555392,
+    "end_timestamp_ns": 1403636588788555392,
+    "original_window_samples": 400,
+    "degraded_window_samples": 321,
+    "spikes_injected": 1,
+    "stuck_samples": 15,
+    "dropped_single_samples": 24,
+    "burst_dropout_events": 5,
+    "total_dropped_samples": 83,
+    "duplicated_samples": 4,
+    "total_output_samples": 2922,
+    "clean_pre_samples": 1318,
+    "clean_post_samples": 1283,
+    "config": {
+      "accel_white_max": 0.25,
+      "gyro_white_max": 0.02,
+      "accel_bias_rw_max": 0.015,
+      "gyro_bias_rw_max": 0.001,
+      "scale_rw_max": 0.002,
+      "spike_prob_max": 0.008,
+      "accel_spike_mag": 8.0,
+      "gyro_spike_mag": 1.5,
+      "stuck_prob_max": 0.015,
+      "stuck_len": [
+        2,
+        8
+      ],
+      "drop_prob_max": 0.05,
+      "burst_prob_max": 0.005,
+      "burst_len": [
+        4,
+        25
+      ],
+      "dup_prob_max": 0.005
+    }
+  },
+  "degrader_configuration": {
+    "accel_white_max": 0.25,
+    "gyro_white_max": 0.02,
+    "accel_bias_rw_max": 0.015,
+    "gyro_bias_rw_max": 0.001,
+    "scale_rw_max": 0.002,
+    "spike_prob_max": 0.008,
+    "accel_spike_mag": 8.0,
+    "gyro_spike_mag": 1.5,
+    "stuck_prob_max": 0.015,
+    "stuck_len": [
+      2,
+      8
+    ],
+    "drop_prob_max": 0.05,
+    "burst_prob_max": 0.005,
+    "burst_len": [
+      4,
+      25
+    ],
+    "dup_prob_max": 0.005
+  }
+}

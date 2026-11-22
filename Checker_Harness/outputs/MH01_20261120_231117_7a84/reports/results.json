@@ -1,0 +1,2109 @@
+{
+  "experiment_id": "MH01_20261120_231117_7a84",
+  "total_runs": 30,
+  "successful_runs": 30,
+  "failed_runs": 0,
+  "runs": [
+    {
+      "run_id": "run_001",
+      "tier": "T1",
+      "random_seed": 191664963,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:17.879896",
+      "end_time": "2026-11-20T23:11:17.902551",
+      "duration_seconds": 0.022655010223388672,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 191664963,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636580628555392,
+            "relative_time_s": 0.42500000000000004
+          },
+          {
+            "timestamp": 1403636585268555392,
+            "relative_time_s": 5.065
+          },
+          {
+            "timestamp": 1403636586598555392,
+            "relative_time_s": 6.3950000000000005
+          },
+          {
+            "timestamp": 1403636587218555392,
+            "relative_time_s": 7.015000000000001
+          },
+          {
+            "timestamp": 1403636589488555392,
+            "relative_time_s": 9.285
+          },
+          {
+            "timestamp": 1403636589923555392,
+            "relative_time_s": 9.72
+          },
+          {
+            "timestamp": 1403636589973555392,
+            "relative_time_s": 9.770000000000001
+          },
+          {
+            "timestamp": 1403636591723555392,
+            "relative_time_s": 11.520000000000001
+          },
+          {
+            "timestamp": 1403636592378555392,
+            "relative_time_s": 12.175
+          },
+          {
+            "timestamp": 1403636593448555392,
+            "relative_time_s": 13.245000000000001
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_002",
+      "tier": "T1",
+      "random_seed": 1662057957,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:17.904550",
+      "end_time": "2026-11-20T23:11:17.923417",
+      "duration_seconds": 0.018866777420043945,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 1662057957,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636581098555392,
+            "relative_time_s": 0.895
+          },
+          {
+            "timestamp": 1403636584698555392,
+            "relative_time_s": 4.495
+          },
+          {
+            "timestamp": 1403636585358555392,
+            "relative_time_s": 5.155
+          },
+          {
+            "timestamp": 1403636588663555392,
+            "relative_time_s": 8.46
+          },
+          {
+            "timestamp": 1403636589308555392,
+            "relative_time_s": 9.105
+          },
+          {
+            "timestamp": 1403636592843555392,
+            "relative_time_s": 12.64
+          },
+          {
+            "timestamp": 1403636593103555392,
+            "relative_time_s": 12.9
+          },
+          {
+            "timestamp": 1403636594398555392,
+            "relative_time_s": 14.195
+          },
+          {
+            "timestamp": 1403636594463555392,
+            "relative_time_s": 14.260000000000002
+          },
+          {
+            "timestamp": 1403636595023555392,
+            "relative_time_s": 14.82
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_003",
+      "tier": "T1",
+      "random_seed": 1405681631,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:17.924406",
+      "end_time": "2026-11-20T23:11:17.943322",
+      "duration_seconds": 0.01891636848449707,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 1405681631,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636581303555392,
+            "relative_time_s": 1.1
+          },
+          {
+            "timestamp": 1403636581968555392,
+            "relative_time_s": 1.7650000000000001
+          },
+          {
+            "timestamp": 1403636582398555392,
+            "relative_time_s": 2.1950000000000003
+          },
+          {
+            "timestamp": 1403636582558555392,
+            "relative_time_s": 2.355
+          },
+          {
+            "timestamp": 1403636583753555392,
+            "relative_time_s": 3.5500000000000003
+          },
+          {
+            "timestamp": 1403636584688555392,
+            "relative_time_s": 4.485
+          },
+          {
+            "timestamp": 1403636587823555392,
+            "relative_time_s": 7.62
+          },
+          {
+            "timestamp": 1403636588793555392,
+            "relative_time_s": 8.59
+          },
+          {
+            "timestamp": 1403636589458555392,
+            "relative_time_s": 9.255
+          },
+          {
+            "timestamp": 1403636589778555392,
+            "relative_time_s": 9.575000000000001
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_004",
+      "tier": "T1",
+      "random_seed": 942484272,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:17.945299",
+      "end_time": "2026-11-20T23:11:17.962660",
+      "duration_seconds": 0.017361164093017578,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 942484272,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636581308555392,
+            "relative_time_s": 1.105
+          },
+          {
+            "timestamp": 1403636582263555392,
+            "relative_time_s": 2.06
+          },
+          {
+            "timestamp": 1403636583378555392,
+            "relative_time_s": 3.1750000000000003
+          },
+          {
+            "timestamp": 1403636583813555392,
+            "relative_time_s": 3.6100000000000003
+          },
+          {
+            "timestamp": 1403636586243555392,
+            "relative_time_s": 6.04
+          },
+          {
+            "timestamp": 1403636589078555392,
+            "relative_time_s": 8.875
+          },
+          {
+            "timestamp": 1403636589628555392,
+            "relative_time_s": 9.425
+          },
+          {
+            "timestamp": 1403636589758555392,
+            "relative_time_s": 9.555
+          },
+          {
+            "timestamp": 1403636590763555392,
+            "relative_time_s": 10.56
+          },
+          {
+            "timestamp": 1403636592298555392,
+            "relative_time_s": 12.095
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_005",
+      "tier": "T1",
+      "random_seed": 929893137,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:17.964657",
+      "end_time": "2026-11-20T23:11:17.982111",
+      "duration_seconds": 0.017453908920288086,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 929893137,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636581228555392,
+            "relative_time_s": 1.0250000000000001
+          },
+          {
+            "timestamp": 1403636581648555392,
+            "relative_time_s": 1.445
+          },
+          {
+            "timestamp": 1403636582533555392,
+            "relative_time_s": 2.33
+          },
+          {
+            "timestamp": 1403636584508555392,
+            "relative_time_s": 4.305000000000001
+          },
+          {
+            "timestamp": 1403636584788555392,
+            "relative_time_s": 4.585
+          },
+          {
+            "timestamp": 1403636585273555392,
+            "relative_time_s": 5.07
+          },
+          {
+            "timestamp": 1403636585393555392,
+            "relative_time_s": 5.19
+          },
+          {
+            "timestamp": 1403636585858555392,
+            "relative_time_s": 5.655
+          },
+          {
+            "timestamp": 1403636587728555392,
+            "relative_time_s": 7.525
+          },
+          {
+            "timestamp": 1403636587928555392,
+            "relative_time_s": 7.7250000000000005
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_006",
+      "tier": "T1",
+      "random_seed": 1843824992,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:17.984608",
+      "end_time": "2026-11-20T23:11:18.002771",
+      "duration_seconds": 0.018162250518798828,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 1843824992,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636582613555392,
+            "relative_time_s": 2.41
+          },
+          {
+            "timestamp": 1403636585883555392,
+            "relative_time_s": 5.680000000000001
+          },
+          {
+            "timestamp": 1403636586823555392,
+            "relative_time_s": 6.62
+          },
+          {
+            "timestamp": 1403636587598555392,
+            "relative_time_s": 7.3950000000000005
+          },
+          {
+            "timestamp": 1403636589293555392,
+            "relative_time_s": 9.09
+          },
+          {
+            "timestamp": 1403636590068555392,
+            "relative_time_s": 9.865
+          },
+          {
+            "timestamp": 1403636591043555392,
+            "relative_time_s": 10.84
+          },
+          {
+            "timestamp": 1403636591178555392,
+            "relative_time_s": 10.975000000000001
+          },
+          {
+            "timestamp": 1403636591493555392,
+            "relative_time_s": 11.290000000000001
+          },
+          {
+            "timestamp": 1403636593803555392,
+            "relative_time_s": 13.600000000000001
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_007",
+      "tier": "T1",
+      "random_seed": 184566854,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:18.004123",
+      "end_time": "2026-11-20T23:11:18.017616",
+      "duration_seconds": 0.013492345809936523,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 184566854,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636580643555392,
+            "relative_time_s": 0.44
+          },
+          {
+            "timestamp": 1403636580968555392,
+            "relative_time_s": 0.765
+          },
+          {
+            "timestamp": 1403636581423555392,
+            "relative_time_s": 1.22
+          },
+          {
+            "timestamp": 1403636583683555392,
+            "relative_time_s": 3.4800000000000004
+          },
+          {
+            "timestamp": 1403636587798555392,
+            "relative_time_s": 7.595000000000001
+          },
+          {
+            "timestamp": 1403636590663555392,
+            "relative_time_s": 10.46
+          },
+          {
+            "timestamp": 1403636591398555392,
+            "relative_time_s": 11.195
+          },
+          {
+            "timestamp": 1403636593238555392,
+            "relative_time_s": 13.035
+          },
+          {
+            "timestamp": 1403636593353555392,
+            "relative_time_s": 13.15
+          },
+          {
+            "timestamp": 1403636595128555392,
+            "relative_time_s": 14.925
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_008",
+      "tier": "T1",
+      "random_seed": 1497586438,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:18.020344",
+      "end_time": "2026-11-20T23:11:18.038651",
+      "duration_seconds": 0.018307924270629883,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 1497586438,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636581163555392,
+            "relative_time_s": 0.9600000000000001
+          },
+          {
+            "timestamp": 1403636581743555392,
+            "relative_time_s": 1.54
+          },
+          {
+            "timestamp": 1403636582298555392,
+            "relative_time_s": 2.095
+          },
+          {
+            "timestamp": 1403636582798555392,
+            "relative_time_s": 2.595
+          },
+          {
+            "timestamp": 1403636585253555392,
+            "relative_time_s": 5.050000000000001
+          },
+          {
+            "timestamp": 1403636587283555392,
+            "relative_time_s": 7.08
+          },
+          {
+            "timestamp": 1403636587333555392,
+            "relative_time_s": 7.130000000000001
+          },
+          {
+            "timestamp": 1403636591408555392,
+            "relative_time_s": 11.205
+          },
+          {
+            "timestamp": 1403636592003555392,
+            "relative_time_s": 11.8
+          },
+          {
+            "timestamp": 1403636592633555392,
+            "relative_time_s": 12.430000000000001
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_009",
+      "tier": "T1",
+      "random_seed": 432652533,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:18.040266",
+      "end_time": "2026-11-20T23:11:18.056772",
+      "duration_seconds": 0.016506433486938477,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 432652533,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636580653555392,
+            "relative_time_s": 0.45
+          },
+          {
+            "timestamp": 1403636581013555392,
+            "relative_time_s": 0.81
+          },
+          {
+            "timestamp": 1403636582823555392,
+            "relative_time_s": 2.62
+          },
+          {
+            "timestamp": 1403636582908555392,
+            "relative_time_s": 2.705
+          },
+          {
+            "timestamp": 1403636585228555392,
+            "relative_time_s": 5.025
+          },
+          {
+            "timestamp": 1403636588798555392,
+            "relative_time_s": 8.595
+          },
+          {
+            "timestamp": 1403636591023555392,
+            "relative_time_s": 10.82
+          },
+          {
+            "timestamp": 1403636591753555392,
+            "relative_time_s": 11.55
+          },
+          {
+            "timestamp": 1403636594068555392,
+            "relative_time_s": 13.865
+          },
+          {
+            "timestamp": 1403636595108555392,
+            "relative_time_s": 14.905000000000001
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_010",
+      "tier": "T1",
+      "random_seed": 202244314,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:18.060447",
+      "end_time": "2026-11-20T23:11:18.075598",
+      "duration_seconds": 0.016148090362548828,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T1",
+        "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+        "num_checkpoints": 10,
+        "random_seed": 202244314,
+        "interval_start_ns": 1403636580203555392,
+        "interval_end_ns": 1403636595203555392,
+        "checkpoints": [
+          {
+            "timestamp": 1403636585063555392,
+            "relative_time_s": 4.86
+          },
+          {
+            "timestamp": 1403636586373555392,
+            "relative_time_s": 6.170000000000001
+          },
+          {
+            "timestamp": 1403636586718555392,
+            "relative_time_s": 6.515000000000001
+          },
+          {
+            "timestamp": 1403636587283555392,
+            "relative_time_s": 7.08
+          },
+          {
+            "timestamp": 1403636587398555392,
+            "relative_time_s": 7.195
+          },
+          {
+            "timestamp": 1403636587423555392,
+            "relative_time_s": 7.220000000000001
+          },
+          {
+            "timestamp": 1403636589993555392,
+            "relative_time_s": 9.790000000000001
+          },
+          {
+            "timestamp": 1403636590758555392,
+            "relative_time_s": 10.555000000000001
+          },
+          {
+            "timestamp": 1403636591543555392,
+            "relative_time_s": 11.34
+          },
+          {
+            "timestamp": 1403636594253555392,
+            "relative_time_s": 14.05
+          }
+        ]
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_001",
+      "tier": "T2",
+      "random_seed": 1130604997,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:18.081382",
+      "end_time": "2026-11-20T23:11:18.639133",
+      "duration_seconds": 0.5577507019042969,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636587308555392,
+        "blackout_onset_relative_s": 7.105,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636592308555392,
+        "blind_prediction_end_relative_s": 12.105,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1421,
+        "excluded_imu_observations": 1580,
+        "random_seed": 1130604997
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_002",
+      "tier": "T2",
+      "random_seed": 2095133045,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:18.643160",
+      "end_time": "2026-11-20T23:11:19.101771",
+      "duration_seconds": 0.45861148834228516,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636589548555392,
+        "blackout_onset_relative_s": 9.345,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636594548555392,
+        "blind_prediction_end_relative_s": 14.345,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1869,
+        "excluded_imu_observations": 1132,
+        "random_seed": 2095133045
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_003",
+      "tier": "T2",
+      "random_seed": 1580016183,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:19.129007",
+      "end_time": "2026-11-20T23:11:19.630433",
+      "duration_seconds": 0.5014255046844482,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636588053555392,
+        "blackout_onset_relative_s": 7.8500000000000005,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636593053555392,
+        "blind_prediction_end_relative_s": 12.850000000000001,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1570,
+        "excluded_imu_observations": 1431,
+        "random_seed": 1580016183
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_004",
+      "tier": "T2",
+      "random_seed": 1634535062,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:19.633061",
+      "end_time": "2026-11-20T23:11:20.157697",
+      "duration_seconds": 0.5246357917785645,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636587408555392,
+        "blackout_onset_relative_s": 7.205,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636592408555392,
+        "blind_prediction_end_relative_s": 12.205,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1441,
+        "excluded_imu_observations": 1560,
+        "random_seed": 1634535062
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_005",
+      "tier": "T2",
+      "random_seed": 1540770719,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:20.184047",
+      "end_time": "2026-11-20T23:11:20.700787",
+      "duration_seconds": 0.5167403221130371,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636587903555392,
+        "blackout_onset_relative_s": 7.7,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636592903555392,
+        "blind_prediction_end_relative_s": 12.700000000000001,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1540,
+        "excluded_imu_observations": 1461,
+        "random_seed": 1540770719
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_006",
+      "tier": "T2",
+      "random_seed": 1688060240,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:20.703097",
+      "end_time": "2026-11-20T23:11:21.229922",
+      "duration_seconds": 0.5268254280090332,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636589833555392,
+        "blackout_onset_relative_s": 9.63,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636594833555392,
+        "blind_prediction_end_relative_s": 14.63,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1926,
+        "excluded_imu_observations": 1075,
+        "random_seed": 1688060240
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_007",
+      "tier": "T2",
+      "random_seed": 1102145672,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:21.232928",
+      "end_time": "2026-11-20T23:11:21.745615",
+      "duration_seconds": 0.5126869678497314,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636589853555392,
+        "blackout_onset_relative_s": 9.65,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636594853555392,
+        "blind_prediction_end_relative_s": 14.65,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1930,
+        "excluded_imu_observations": 1071,
+        "random_seed": 1102145672
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_008",
+      "tier": "T2",
+      "random_seed": 275121930,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:21.766051",
+      "end_time": "2026-11-20T23:11:22.330611",
+      "duration_seconds": 0.5645596981048584,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636588178555392,
+        "blackout_onset_relative_s": 7.9750000000000005,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636593178555392,
+        "blind_prediction_end_relative_s": 12.975000000000001,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1595,
+        "excluded_imu_observations": 1406,
+        "random_seed": 275121930
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_009",
+      "tier": "T2",
+      "random_seed": 1803345590,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:22.356016",
+      "end_time": "2026-11-20T23:11:22.871064",
+      "duration_seconds": 0.5150482654571533,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636587943555392,
+        "blackout_onset_relative_s": 7.74,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636592943555392,
+        "blind_prediction_end_relative_s": 12.74,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1548,
+        "excluded_imu_observations": 1453,
+        "random_seed": 1803345590
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_010",
+      "tier": "T2",
+      "random_seed": 967196436,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:22.873350",
+      "end_time": "2026-11-20T23:11:23.400239",
+      "duration_seconds": 0.5268895626068115,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T2",
+        "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+        "blackout_onset_timestamp_ns": 1403636588548555392,
+        "blackout_onset_relative_s": 8.345,
+        "blind_prediction_duration_s": 5.0,
+        "blind_prediction_end_timestamp_ns": 1403636593548555392,
+        "blind_prediction_end_relative_s": 13.345,
+        "interval_end_timestamp_ns": 1403636595203555392,
+        "interval_end_relative_s": 15.000000000000002,
+        "total_original_imu_observations": 3001,
+        "available_imu_observations": 1669,
+        "excluded_imu_observations": 1332,
+        "random_seed": 967196436
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_001",
+      "tier": "T3",
+      "random_seed": 1074497555,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:23.402215",
+      "end_time": "2026-11-20T23:11:24.341226",
+      "duration_seconds": 0.9390108585357666,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 1074497555,
+        "degradation_start_time_s": 6.99719751124175,
+        "degradation_end_time_s": 8.997197511241751,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636587203555392,
+        "end_timestamp_ns": 1403636589198555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 384,
+        "spikes_injected": 4,
+        "stuck_samples": 25,
+        "dropped_single_samples": 18,
+        "burst_dropout_events": 0,
+        "total_dropped_samples": 18,
+        "duplicated_samples": 2,
+        "total_output_samples": 2985,
+        "clean_pre_samples": 1400,
+        "clean_post_samples": 1201,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_002",
+      "tier": "T3",
+      "random_seed": 796282693,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:24.343226",
+      "end_time": "2026-11-20T23:11:25.316064",
+      "duration_seconds": 0.9728386402130127,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 796282693,
+        "degradation_start_time_s": 6.3607690619738335,
+        "degradation_end_time_s": 8.360769061973834,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636586568555392,
+        "end_timestamp_ns": 1403636588563555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 372,
+        "spikes_injected": 2,
+        "stuck_samples": 20,
+        "dropped_single_samples": 28,
+        "burst_dropout_events": 0,
+        "total_dropped_samples": 28,
+        "duplicated_samples": 0,
+        "total_output_samples": 2973,
+        "clean_pre_samples": 1273,
+        "clean_post_samples": 1328,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_003",
+      "tier": "T3",
+      "random_seed": 392022359,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:25.317493",
+      "end_time": "2026-11-20T23:11:26.338637",
+      "duration_seconds": 1.0211436748504639,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 392022359,
+        "degradation_start_time_s": 5.847246243111866,
+        "degradation_end_time_s": 7.847246243111866,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636586053555392,
+        "end_timestamp_ns": 1403636588048555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 377,
+        "spikes_injected": 2,
+        "stuck_samples": 28,
+        "dropped_single_samples": 13,
+        "burst_dropout_events": 1,
+        "total_dropped_samples": 25,
+        "duplicated_samples": 2,
+        "total_output_samples": 2978,
+        "clean_pre_samples": 1170,
+        "clean_post_samples": 1431,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_004",
+      "tier": "T3",
+      "random_seed": 1990212658,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:26.340996",
+      "end_time": "2026-11-20T23:11:27.287545",
+      "duration_seconds": 0.9465489387512207,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 1990212658,
+        "degradation_start_time_s": 6.52811920469012,
+        "degradation_end_time_s": 8.528119204690121,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636586733555392,
+        "end_timestamp_ns": 1403636588728555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 347,
+        "spikes_injected": 3,
+        "stuck_samples": 24,
+        "dropped_single_samples": 17,
+        "burst_dropout_events": 3,
+        "total_dropped_samples": 56,
+        "duplicated_samples": 3,
+        "total_output_samples": 2948,
+        "clean_pre_samples": 1306,
+        "clean_post_samples": 1295,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_005",
+      "tier": "T3",
+      "random_seed": 1678403330,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:27.313587",
+      "end_time": "2026-11-20T23:11:28.262934",
+      "duration_seconds": 0.9493467807769775,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 1678403330,
+        "degradation_start_time_s": 6.482198875790946,
+        "degradation_end_time_s": 8.482198875790946,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636586688555392,
+        "end_timestamp_ns": 1403636588683555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 272,
+        "spikes_injected": 3,
+        "stuck_samples": 36,
+        "dropped_single_samples": 29,
+        "burst_dropout_events": 8,
+        "total_dropped_samples": 129,
+        "duplicated_samples": 1,
+        "total_output_samples": 2873,
+        "clean_pre_samples": 1297,
+        "clean_post_samples": 1304,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_006",
+      "tier": "T3",
+      "random_seed": 1382689815,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:28.289554",
+      "end_time": "2026-11-20T23:11:29.555406",
+      "duration_seconds": 1.2658517360687256,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 1382689815,
+        "degradation_start_time_s": 6.589564927424144,
+        "degradation_end_time_s": 8.589564927424144,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636586793555392,
+        "end_timestamp_ns": 1403636588788555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 321,
+        "spikes_injected": 1,
+        "stuck_samples": 15,
+        "dropped_single_samples": 24,
+        "burst_dropout_events": 5,
+        "total_dropped_samples": 83,
+        "duplicated_samples": 4,
+        "total_output_samples": 2922,
+        "clean_pre_samples": 1318,
+        "clean_post_samples": 1283,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_007",
+      "tier": "T3",
+      "random_seed": 864178266,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:29.582359",
+      "end_time": "2026-11-20T23:11:30.488956",
+      "duration_seconds": 0.9065976142883301,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 864178266,
+        "degradation_start_time_s": 5.899835530706865,
+        "degradation_end_time_s": 7.899835530706865,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636586103555392,
+        "end_timestamp_ns": 1403636588098555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 344,
+        "spikes_injected": 3,
+        "stuck_samples": 30,
+        "dropped_single_samples": 30,
+        "burst_dropout_events": 2,
+        "total_dropped_samples": 58,
+        "duplicated_samples": 2,
+        "total_output_samples": 2945,
+        "clean_pre_samples": 1180,
+        "clean_post_samples": 1421,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_008",
+      "tier": "T3",
+      "random_seed": 1766867109,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:30.492473",
+      "end_time": "2026-11-20T23:11:31.489077",
+      "duration_seconds": 0.9966039657592773,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 1766867109,
+        "degradation_start_time_s": 5.247159842128974,
+        "degradation_end_time_s": 7.247159842128974,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636585453555392,
+        "end_timestamp_ns": 1403636587448555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 356,
+        "spikes_injected": 2,
+        "stuck_samples": 18,
+        "dropped_single_samples": 23,
+        "burst_dropout_events": 2,
+        "total_dropped_samples": 46,
+        "duplicated_samples": 2,
+        "total_output_samples": 2957,
+        "clean_pre_samples": 1050,
+        "clean_post_samples": 1551,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_009",
+      "tier": "T3",
+      "random_seed": 1171300112,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:31.491075",
+      "end_time": "2026-11-20T23:11:32.444037",
+      "duration_seconds": 0.9529623985290527,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 1171300112,
+        "degradation_start_time_s": 6.799159065050532,
+        "degradation_end_time_s": 8.799159065050532,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636587003555392,
+        "end_timestamp_ns": 1403636588998555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 340,
+        "spikes_injected": 3,
+        "stuck_samples": 29,
+        "dropped_single_samples": 22,
+        "burst_dropout_events": 3,
+        "total_dropped_samples": 60,
+        "duplicated_samples": 0,
+        "total_output_samples": 2941,
+        "clean_pre_samples": 1360,
+        "clean_post_samples": 1241,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    },
+    {
+      "run_id": "run_010",
+      "tier": "T3",
+      "random_seed": 952224740,
+      "parent_experiment_id": "MH01_20261120_231117_7a84",
+      "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+      "execution_status": "SUCCESS",
+      "start_time": "2026-11-20T23:11:32.472805",
+      "end_time": "2026-11-20T23:11:33.354614",
+      "duration_seconds": 0.8818085193634033,
+      "error_details": null,
+      "tier_metadata": {
+        "tier": "T3",
+        "description": "2-second sensor degradation with exact clean pre- and post-regions",
+        "random_seed": 952224740,
+        "degradation_start_time_s": 5.2924473883859395,
+        "degradation_end_time_s": 7.2924473883859395,
+        "degradation_duration_s": 2.0,
+        "start_timestamp_ns": 1403636585498555392,
+        "end_timestamp_ns": 1403636587493555392,
+        "original_window_samples": 400,
+        "degraded_window_samples": 316,
+        "spikes_injected": 5,
+        "stuck_samples": 37,
+        "dropped_single_samples": 21,
+        "burst_dropout_events": 3,
+        "total_dropped_samples": 85,
+        "duplicated_samples": 1,
+        "total_output_samples": 2917,
+        "clean_pre_samples": 1059,
+        "clean_post_samples": 1542,
+        "config": {
+          "accel_white_max": 0.25,
+          "gyro_white_max": 0.02,
+          "accel_bias_rw_max": 0.015,
+          "gyro_bias_rw_max": 0.001,
+          "scale_rw_max": 0.002,
+          "spike_prob_max": 0.008,
+          "accel_spike_mag": 8.0,
+          "gyro_spike_mag": 1.5,
+          "stuck_prob_max": 0.015,
+          "stuck_len": [
+            2,
+            8
+          ],
+          "drop_prob_max": 0.05,
+          "burst_prob_max": 0.005,
+          "burst_len": [
+            4,
+            25
+          ],
+          "dup_prob_max": 0.005
+        }
+      },
+      "degrader_configuration": {
+        "accel_white_max": 0.25,
+        "gyro_white_max": 0.02,
+        "accel_bias_rw_max": 0.015,
+        "gyro_bias_rw_max": 0.001,
+        "scale_rw_max": 0.002,
+        "spike_prob_max": 0.008,
+        "accel_spike_mag": 8.0,
+        "gyro_spike_mag": 1.5,
+        "stuck_prob_max": 0.015,
+        "stuck_len": [
+          2,
+          8
+        ],
+        "drop_prob_max": 0.05,
+        "burst_prob_max": 0.005,
+        "burst_len": [
+          4,
+          25
+        ],
+        "dup_prob_max": 0.005
+      }
+    }
+  ],
+  "solver_evaluation": "Pending solver implementation"
+}

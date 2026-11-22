@@ -1,0 +1,61 @@
+{
+  "experiment_id": "MH01_20261120_231117_7a84",
+  "creation_timestamp": "2026-11-20T23:11:33.397563",
+  "status": "COMPLETED",
+  "dataset_name": "EuRoC MAV",
+  "sequence_name": "MH_01_easy",
+  "original_dataset_path": "C:\\Users\\Yaksha's Laptop\\AppData\\Local\\Temp\\tmpvp1mrprt\\euroc\\MH_01_easy",
+  "segment_start_timestamp_ns": 1403636580203555392,
+  "segment_end_timestamp_ns": 1403636595203555392,
+  "segment_duration_s": 15.0,
+  "actual_duration_s": 15.000000000000002,
+  "segment_selection_seed": 42,
+  "degrader_configuration": {
+    "accel_white_max": 0.25,
+    "gyro_white_max": 0.02,
+    "accel_bias_rw_max": 0.015,
+    "gyro_bias_rw_max": 0.001,
+    "scale_rw_max": 0.002,
+    "spike_prob_max": 0.008,
+    "accel_spike_mag": 8.0,
+    "gyro_spike_mag": 1.5,
+    "stuck_prob_max": 0.015,
+    "stuck_len": [
+      2,
+      8
+    ],
+    "drop_prob_max": 0.05,
+    "burst_prob_max": 0.005,
+    "burst_len": [
+      4,
+      25
+    ],
+    "dup_prob_max": 0.005
+  },
+  "runs_target": {
+    "T1": 10,
+    "T2": 10,
+    "T3": 10,
+    "total": 30
+  },
+  "individual_run_seeds": {
+    "run_001": 1074497555,
+    "run_002": 796282693,
+    "run_003": 392022359,
+    "run_004": 1990212658,
+    "run_005": 1678403330,
+    "run_006": 1382689815,
+    "run_007": 864178266,
+    "run_008": 1766867109,
+    "run_009": 1171300112,
+    "run_010": 952224740
+  },
+  "software_versions": {
+    "python": "3.10.11",
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "harness": "1.0.0",
+    "os": "Windows 10"
+  }
+}

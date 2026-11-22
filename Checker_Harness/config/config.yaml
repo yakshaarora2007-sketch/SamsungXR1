@@ -1,0 +1,42 @@
+# Checker_Harness/config/config.yaml
+dataset:
+  root_dir: "dataset/euroc"
+  default_sequence: "MH_01_easy"
+  segment_duration_s: 15.0
+  aliases:
+    MH01: "MH_01_easy"
+    MH_01: "MH_01_easy"
+    MH_01_easy: "MH_01_easy"
+    MH02: "MH_02_easy"
+    MH_02: "MH_02_easy"
+    MH_02_easy: "MH_02_easy"
+    MH03: "MH_03_medium"
+    MH04: "MH_04_difficult"
+    MH05: "MH_05_difficult"
+    V101: "V1_01_easy"
+    V1_01_easy: "V1_01_easy"
+    V102: "V1_02_medium"
+    V1_02_medium: "V1_02_medium"
+    V103: "V1_03_difficult"
+    V1_03_difficult: "V1_03_difficult"
+
+experiment:
+  output_dir: "outputs"
+  t1_runs: 10
+  t2_runs: 10
+  t3_runs: 10
+  harness_version: "1.0.0"
+
+degrader:
+  accel_white_max: 0.25
+  gyro_white_max: 0.020
+  accel_bias_rw_max: 0.015
+  gyro_bias_rw_max: 0.0010
+  scale_rw_max: 0.002
+  spike_prob_max: 0.008
+  accel_spike_mag: 8.0
+  gyro_spike_mag: 1.5
+  stuck_prob_max: 0.015
+  drop_prob_max: 0.05
+  burst_prob_max: 0.005
+  dup_prob_max: 0.005

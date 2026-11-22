@@ -1,0 +1,106 @@
+{
+  "run_id": "run_009",
+  "tier": "T1",
+  "random_seed": 298028865,
+  "parent_experiment_id": "MH01_20261121_131547_f9d6",
+  "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261121_131547_f9d6\\source",
+  "execution_status": "SUCCESS",
+  "start_time": "2026-11-21T13:15:48.621856",
+  "end_time": "2026-11-21T13:15:48.699784",
+  "duration_seconds": 0.07792854309082031,
+  "error_details": null,
+  "tier_metadata": {
+    "tier": "T1",
+    "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+    "num_checkpoints": 10,
+    "random_seed": 298028865,
+    "interval_start_ns": 1403636582203555392,
+    "interval_end_ns": 1403636597203555392,
+    "checkpoints": [
+      {
+        "timestamp": 1403636582328555392,
+        "relative_time_s": 0.125
+      },
+      {
+        "timestamp": 1403636583078555392,
+        "relative_time_s": 0.875
+      },
+      {
+        "timestamp": 1403636583963555392,
+        "relative_time_s": 1.76
+      },
+      {
+        "timestamp": 1403636584028555392,
+        "relative_time_s": 1.8250000000000002
+      },
+      {
+        "timestamp": 1403636585228555392,
+        "relative_time_s": 3.0250000000000004
+      },
+      {
+        "timestamp": 1403636590898555392,
+        "relative_time_s": 8.695
+      },
+      {
+        "timestamp": 1403636591713555392,
+        "relative_time_s": 9.51
+      },
+      {
+        "timestamp": 1403636593078555392,
+        "relative_time_s": 10.875
+      },
+      {
+        "timestamp": 1403636594023555392,
+        "relative_time_s": 11.82
+      },
+      {
+        "timestamp": 1403636594943555392,
+        "relative_time_s": 12.74
+      }
+    ]
+  },
+  "degrader_configuration": {
+    "accel_white_max": 0.25,
+    "gyro_white_max": 0.02,
+    "accel_bias_rw_max": 0.015,
+    "gyro_bias_rw_max": 0.001,
+    "scale_rw_max": 0.002,
+    "spike_prob_max": 0.008,
+    "accel_spike_mag": 8.0,
+    "gyro_spike_mag": 1.5,
+    "stuck_prob_max": 0.015,
+    "stuck_len": [
+      2,
+      8
+    ],
+    "drop_prob_max": 0.05,
+    "burst_prob_max": 0.005,
+    "burst_len": [
+      4,
+      25
+    ],
+    "dup_prob_max": 0.005
+  },
+  "memory": {
+    "operation_name": "T1_run_009",
+    "limit_bytes": 8388608,
+    "limit_mb": 8.0,
+    "interpreter_baseline_bytes": 96608256,
+    "interpreter_baseline_mb": 92.133,
+    "algorithm_peak_bytes": 1815060,
+    "algorithm_peak_mb": 1.731,
+    "python_heap_peak_bytes": 1237844,
+    "native_buffers_peak_bytes": 577216,
+    "process_rss_peak_bytes": 96628736,
+    "process_rss_peak_mb": 92.152,
+    "status": "PASS",
+    "coverage": "FULL",
+    "methodology": "tracemalloc + native buffer tracking + process delta isolation",
+    "tracked_buffers": {
+      "source_imu_df": 168184,
+      "source_gt_df": 408264,
+      "t1_checkpoints": 768
+    },
+    "violation_details": null
+  }
+}

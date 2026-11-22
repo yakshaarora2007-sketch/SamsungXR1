@@ -1,0 +1,15 @@
+{
+  "tier": "T2",
+  "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+  "blackout_onset_timestamp_ns": 1403636603768555520,
+  "blackout_onset_relative_s": 8.030000128000001,
+  "blind_prediction_duration_s": 5.0,
+  "blind_prediction_end_timestamp_ns": 1403636608768555520,
+  "blind_prediction_end_relative_s": 13.030000128000001,
+  "interval_end_timestamp_ns": 1403636610738555392,
+  "interval_end_relative_s": 15.000000000000002,
+  "total_original_imu_observations": 3001,
+  "available_imu_observations": 1606,
+  "excluded_imu_observations": 1395,
+  "random_seed": 85093695
+}

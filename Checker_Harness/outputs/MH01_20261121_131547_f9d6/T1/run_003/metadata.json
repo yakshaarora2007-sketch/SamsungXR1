@@ -1,0 +1,50 @@
+{
+  "tier": "T1",
+  "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+  "num_checkpoints": 10,
+  "random_seed": 2121586239,
+  "interval_start_ns": 1403636582203555392,
+  "interval_end_ns": 1403636597203555392,
+  "checkpoints": [
+    {
+      "timestamp": 1403636582638555392,
+      "relative_time_s": 0.43500000000000005
+    },
+    {
+      "timestamp": 1403636583268555392,
+      "relative_time_s": 1.0650000000000002
+    },
+    {
+      "timestamp": 1403636583808555392,
+      "relative_time_s": 1.6050000000000002
+    },
+    {
+      "timestamp": 1403636589298555392,
+      "relative_time_s": 7.095000000000001
+    },
+    {
+      "timestamp": 1403636589643555392,
+      "relative_time_s": 7.44
+    },
+    {
+      "timestamp": 1403636591373555392,
+      "relative_time_s": 9.17
+    },
+    {
+      "timestamp": 1403636592458555392,
+      "relative_time_s": 10.255
+    },
+    {
+      "timestamp": 1403636592868555392,
+      "relative_time_s": 10.665000000000001
+    },
+    {
+      "timestamp": 1403636593288555392,
+      "relative_time_s": 11.085
+    },
+    {
+      "timestamp": 1403636596993555392,
+      "relative_time_s": 14.790000000000001
+    }
+  ]
+}

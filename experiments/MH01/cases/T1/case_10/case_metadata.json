@@ -1,0 +1,84 @@
+{
+  "test_id": "MH01_T1_10",
+  "tier": "T1",
+  "repetition_number": 10,
+  "random_seed": 36691808,
+  "sequence_name": "MH_01_easy",
+  "source_segment_path": "E:\\SamsungXR\\experiments\\MH01\\source",
+  "start_timestamp_ns": 1403636595738555392,
+  "end_timestamp_ns": 1403636610738555392,
+  "input_duration_s": 15.000000000000002,
+  "generation_time_s": 0.1762073040008545,
+  "tier_metadata": {
+    "tier": "T1",
+    "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+    "num_checkpoints": 10,
+    "random_seed": 36691808,
+    "interval_start_ns": 1403636595738555392,
+    "interval_end_ns": 1403636610738555392,
+    "checkpoints": [
+      {
+        "timestamp": 1403636596023555584,
+        "relative_time_s": 0.28500019200000004
+      },
+      {
+        "timestamp": 1403636596108555520,
+        "relative_time_s": 0.37000012800000004
+      },
+      {
+        "timestamp": 1403636596438555392,
+        "relative_time_s": 0.7000000000000001
+      },
+      {
+        "timestamp": 1403636597368555520,
+        "relative_time_s": 1.630000128
+      },
+      {
+        "timestamp": 1403636604223555584,
+        "relative_time_s": 8.485000192000001
+      },
+      {
+        "timestamp": 1403636604468555520,
+        "relative_time_s": 8.730000128
+      },
+      {
+        "timestamp": 1403636605633555456,
+        "relative_time_s": 9.895000064000001
+      },
+      {
+        "timestamp": 1403636605723555584,
+        "relative_time_s": 9.985000192000001
+      },
+      {
+        "timestamp": 1403636606718555392,
+        "relative_time_s": 10.98
+      },
+      {
+        "timestamp": 1403636607233555456,
+        "relative_time_s": 11.495000064000001
+      }
+    ]
+  },
+  "memory": {
+    "operation_name": "MH01_T1_10",
+    "limit_bytes": 8388608,
+    "limit_mb": 8.0,
+    "interpreter_baseline_bytes": 96407552,
+    "interpreter_baseline_mb": 91.941,
+    "algorithm_peak_bytes": 1602624,
+    "algorithm_peak_mb": 1.528,
+    "python_heap_peak_bytes": 1025408,
+    "native_buffers_peak_bytes": 577216,
+    "process_rss_peak_bytes": 97374208,
+    "process_rss_peak_mb": 92.863,
+    "status": "PASS",
+    "coverage": "FULL",
+    "methodology": "tracemalloc + native buffer tracking + process delta isolation",
+    "tracked_buffers": {
+      "source_imu_df": 168184,
+      "source_gt_df": 408264,
+      "t1_checkpoints": 768
+    },
+    "violation_details": null
+  }
+}

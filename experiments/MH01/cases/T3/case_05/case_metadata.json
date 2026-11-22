@@ -1,0 +1,77 @@
+{
+  "test_id": "MH01_T3_05",
+  "tier": "T3",
+  "repetition_number": 5,
+  "random_seed": 181789,
+  "sequence_name": "MH_01_easy",
+  "source_segment_path": "E:\\SamsungXR\\experiments\\MH01\\source",
+  "start_timestamp_ns": 1403636595738555392,
+  "end_timestamp_ns": 1403636610738555392,
+  "input_duration_s": 15.000000000000002,
+  "generation_time_s": 1.6576735973358154,
+  "tier_metadata": {
+    "tier": "T3",
+    "description": "2-second sensor degradation with exact clean pre- and post-regions",
+    "random_seed": 181789,
+    "degradation_start_time_s": 5.010562050419146,
+    "degradation_end_time_s": 7.010562050419146,
+    "degradation_duration_s": 2.0,
+    "start_timestamp_ns": 1403636600753555456,
+    "end_timestamp_ns": 1403636602748555520,
+    "original_window_samples": 400,
+    "degraded_window_samples": 378,
+    "spikes_injected": 1,
+    "stuck_samples": 22,
+    "dropped_single_samples": 17,
+    "burst_dropout_events": 1,
+    "total_dropped_samples": 22,
+    "duplicated_samples": 0,
+    "total_output_samples": 2979,
+    "clean_pre_samples": 1003,
+    "clean_post_samples": 1598,
+    "config": {
+      "accel_white_max": 0.25,
+      "gyro_white_max": 0.02,
+      "accel_bias_rw_max": 0.015,
+      "gyro_bias_rw_max": 0.001,
+      "scale_rw_max": 0.002,
+      "spike_prob_max": 0.008,
+      "accel_spike_mag": 8.0,
+      "gyro_spike_mag": 1.5,
+      "stuck_prob_max": 0.015,
+      "stuck_len": [
+        2,
+        8
+      ],
+      "drop_prob_max": 0.05,
+      "burst_prob_max": 0.005,
+      "burst_len": [
+        4,
+        25
+      ],
+      "dup_prob_max": 0.005
+    }
+  },
+  "memory": {
+    "operation_name": "MH01_T3_05",
+    "limit_bytes": 8388608,
+    "limit_mb": 8.0,
+    "interpreter_baseline_bytes": 111935488,
+    "interpreter_baseline_mb": 106.75,
+    "algorithm_peak_bytes": 1875744,
+    "algorithm_peak_mb": 1.789,
+    "python_heap_peak_bytes": 1132344,
+    "native_buffers_peak_bytes": 743400,
+    "process_rss_peak_bytes": 112918528,
+    "process_rss_peak_mb": 107.688,
+    "status": "PASS",
+    "coverage": "FULL",
+    "methodology": "tracemalloc + native buffer tracking + process delta isolation",
+    "tracked_buffers": {
+      "source_imu_df": 168184,
+      "source_gt_df": 408264,
+      "t3_imu_input": 166952
+    },
+    "violation_details": null
+  }
+}

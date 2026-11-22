@@ -1,0 +1,43 @@
+{
+  "tier": "T3",
+  "description": "2-second sensor degradation with exact clean pre- and post-regions",
+  "random_seed": 1854905472,
+  "degradation_start_time_s": 5.343305253297872,
+  "degradation_end_time_s": 7.343305253297872,
+  "degradation_duration_s": 2.0,
+  "start_timestamp_ns": 1403636587548555392,
+  "end_timestamp_ns": 1403636589543555392,
+  "original_window_samples": 400,
+  "degraded_window_samples": 350,
+  "spikes_injected": 5,
+  "stuck_samples": 19,
+  "dropped_single_samples": 24,
+  "burst_dropout_events": 2,
+  "total_dropped_samples": 52,
+  "duplicated_samples": 2,
+  "total_output_samples": 2951,
+  "clean_pre_samples": 1069,
+  "clean_post_samples": 1532,
+  "config": {
+    "accel_white_max": 0.25,
+    "gyro_white_max": 0.02,
+    "accel_bias_rw_max": 0.015,
+    "gyro_bias_rw_max": 0.001,
+    "scale_rw_max": 0.002,
+    "spike_prob_max": 0.008,
+    "accel_spike_mag": 8.0,
+    "gyro_spike_mag": 1.5,
+    "stuck_prob_max": 0.015,
+    "stuck_len": [
+      2,
+      8
+    ],
+    "drop_prob_max": 0.05,
+    "burst_prob_max": 0.005,
+    "burst_len": [
+      4,
+      25
+    ],
+    "dup_prob_max": 0.005
+  }
+}

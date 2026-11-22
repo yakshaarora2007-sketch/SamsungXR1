@@ -1,0 +1,71 @@
+{
+  "run_id": "run_006",
+  "tier": "T2",
+  "random_seed": 684046402,
+  "parent_experiment_id": "MH01_20261121_131547_f9d6",
+  "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261121_131547_f9d6\\source",
+  "execution_status": "SUCCESS",
+  "start_time": "2026-11-21T13:15:57.081893",
+  "end_time": "2026-11-21T13:15:58.700663",
+  "duration_seconds": 1.6187701225280762,
+  "error_details": null,
+  "tier_metadata": {
+    "tier": "T2",
+    "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+    "blackout_onset_timestamp_ns": 1403636589283555392,
+    "blackout_onset_relative_s": 7.08,
+    "blind_prediction_duration_s": 5.0,
+    "blind_prediction_end_timestamp_ns": 1403636594283555392,
+    "blind_prediction_end_relative_s": 12.08,
+    "interval_end_timestamp_ns": 1403636597203555392,
+    "interval_end_relative_s": 15.000000000000002,
+    "total_original_imu_observations": 3001,
+    "available_imu_observations": 1416,
+    "excluded_imu_observations": 1585,
+    "random_seed": 684046402
+  },
+  "degrader_configuration": {
+    "accel_white_max": 0.25,
+    "gyro_white_max": 0.02,
+    "accel_bias_rw_max": 0.015,
+    "gyro_bias_rw_max": 0.001,
+    "scale_rw_max": 0.002,
+    "spike_prob_max": 0.008,
+    "accel_spike_mag": 8.0,
+    "gyro_spike_mag": 1.5,
+    "stuck_prob_max": 0.015,
+    "stuck_len": [
+      2,
+      8
+    ],
+    "drop_prob_max": 0.05,
+    "burst_prob_max": 0.005,
+    "burst_len": [
+      4,
+      25
+    ],
+    "dup_prob_max": 0.005
+  },
+  "memory": {
+    "operation_name": "T2_run_006",
+    "limit_bytes": 8388608,
+    "limit_mb": 8.0,
+    "interpreter_baseline_bytes": 105979904,
+    "interpreter_baseline_mb": 101.07,
+    "algorithm_peak_bytes": 1422523,
+    "algorithm_peak_mb": 1.357,
+    "python_heap_peak_bytes": 766651,
+    "native_buffers_peak_bytes": 655872,
+    "process_rss_peak_bytes": 106594304,
+    "process_rss_peak_mb": 101.656,
+    "status": "PASS",
+    "coverage": "FULL",
+    "methodology": "tracemalloc + native buffer tracking + process delta isolation",
+    "tracked_buffers": {
+      "source_imu_df": 168184,
+      "source_gt_df": 408264,
+      "t2_imu_input": 79424
+    },
+    "violation_details": null
+  }
+}

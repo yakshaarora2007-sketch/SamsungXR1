@@ -1,0 +1,84 @@
+{
+  "run_id": "run_010",
+  "tier": "T1",
+  "random_seed": 202244314,
+  "parent_experiment_id": "MH01_20261120_231117_7a84",
+  "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261120_231117_7a84\\source",
+  "execution_status": "SUCCESS",
+  "start_time": "2026-11-20T23:11:18.060447",
+  "end_time": "2026-11-20T23:11:18.075598",
+  "duration_seconds": 0.016148090362548828,
+  "error_details": null,
+  "tier_metadata": {
+    "tier": "T1",
+    "description": "10 distinct IMU timestamps and corresponding exact ground-truth poses",
+    "num_checkpoints": 10,
+    "random_seed": 202244314,
+    "interval_start_ns": 1403636580203555392,
+    "interval_end_ns": 1403636595203555392,
+    "checkpoints": [
+      {
+        "timestamp": 1403636585063555392,
+        "relative_time_s": 4.86
+      },
+      {
+        "timestamp": 1403636586373555392,
+        "relative_time_s": 6.170000000000001
+      },
+      {
+        "timestamp": 1403636586718555392,
+        "relative_time_s": 6.515000000000001
+      },
+      {
+        "timestamp": 1403636587283555392,
+        "relative_time_s": 7.08
+      },
+      {
+        "timestamp": 1403636587398555392,
+        "relative_time_s": 7.195
+      },
+      {
+        "timestamp": 1403636587423555392,
+        "relative_time_s": 7.220000000000001
+      },
+      {
+        "timestamp": 1403636589993555392,
+        "relative_time_s": 9.790000000000001
+      },
+      {
+        "timestamp": 1403636590758555392,
+        "relative_time_s": 10.555000000000001
+      },
+      {
+        "timestamp": 1403636591543555392,
+        "relative_time_s": 11.34
+      },
+      {
+        "timestamp": 1403636594253555392,
+        "relative_time_s": 14.05
+      }
+    ]
+  },
+  "degrader_configuration": {
+    "accel_white_max": 0.25,
+    "gyro_white_max": 0.02,
+    "accel_bias_rw_max": 0.015,
+    "gyro_bias_rw_max": 0.001,
+    "scale_rw_max": 0.002,
+    "spike_prob_max": 0.008,
+    "accel_spike_mag": 8.0,
+    "gyro_spike_mag": 1.5,
+    "stuck_prob_max": 0.015,
+    "stuck_len": [
+      2,
+      8
+    ],
+    "drop_prob_max": 0.05,
+    "burst_prob_max": 0.005,
+    "burst_len": [
+      4,
+      25
+    ],
+    "dup_prob_max": 0.005
+  }
+}

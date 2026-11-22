@@ -1,0 +1,49 @@
+{
+  "test_id": "MH01_T2_03",
+  "tier": "T2",
+  "repetition_number": 3,
+  "random_seed": 23736162,
+  "sequence_name": "MH_01_easy",
+  "source_segment_path": "E:\\SamsungXR\\experiments\\MH01\\source",
+  "start_timestamp_ns": 1403636595738555392,
+  "end_timestamp_ns": 1403636610738555392,
+  "input_duration_s": 15.000000000000002,
+  "generation_time_s": 0.7928605079650879,
+  "tier_metadata": {
+    "tier": "T2",
+    "description": "Complete IMU blackout between 7-10s with 5s official blind prediction period",
+    "blackout_onset_timestamp_ns": 1403636601533555456,
+    "blackout_onset_relative_s": 5.795000064000001,
+    "blind_prediction_duration_s": 5.0,
+    "blind_prediction_end_timestamp_ns": 1403636606533555456,
+    "blind_prediction_end_relative_s": 10.795000064,
+    "interval_end_timestamp_ns": 1403636610738555392,
+    "interval_end_relative_s": 15.000000000000002,
+    "total_original_imu_observations": 3001,
+    "available_imu_observations": 1159,
+    "excluded_imu_observations": 1842,
+    "random_seed": 23736162
+  },
+  "memory": {
+    "operation_name": "MH01_T2_03",
+    "limit_bytes": 8388608,
+    "limit_mb": 8.0,
+    "interpreter_baseline_bytes": 102903808,
+    "interpreter_baseline_mb": 98.137,
+    "algorithm_peak_bytes": 1259271,
+    "algorithm_peak_mb": 1.201,
+    "python_heap_peak_bytes": 617791,
+    "native_buffers_peak_bytes": 641480,
+    "process_rss_peak_bytes": 102924288,
+    "process_rss_peak_mb": 98.156,
+    "status": "PASS",
+    "coverage": "FULL",
+    "methodology": "tracemalloc + native buffer tracking + process delta isolation",
+    "tracked_buffers": {
+      "source_imu_df": 168184,
+      "source_gt_df": 408264,
+      "t2_imu_input": 65032
+    },
+    "violation_details": null
+  }
+}

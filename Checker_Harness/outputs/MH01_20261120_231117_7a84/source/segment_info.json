@@ -1,0 +1,19 @@
+{
+  "dataset_name": "EuRoC MAV",
+  "sequence_name": "MH_01_easy",
+  "dataset_path": "C:\\Users\\Yaksha's Laptop\\AppData\\Local\\Temp\\tmpvp1mrprt\\euroc\\MH_01_easy",
+  "sequence_start_timestamp_ns": 1403636579758555392,
+  "sequence_end_timestamp_ns": 1403636599753555392,
+  "original_sequence_duration_s": 19.995,
+  "segment_duration_s": 15.0,
+  "nominal_duration_s": 15.0,
+  "actual_duration_s": 15.000000000000002,
+  "start_timestamp_ns": 1403636580203555392,
+  "end_timestamp_ns": 1403636595203555392,
+  "start_time_relative_to_sequence_s": 0.445,
+  "end_time_relative_to_sequence_s": 15.445,
+  "imu_sample_count": 3001,
+  "gt_sample_count": 3001,
+  "imu_median_dt_ms": 5.0,
+  "selection_seed": 42
+}

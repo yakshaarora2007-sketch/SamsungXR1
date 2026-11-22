@@ -1,0 +1,99 @@
+{
+  "run_id": "run_009",
+  "tier": "T3",
+  "random_seed": 1113402597,
+  "parent_experiment_id": "MH01_20261121_131547_f9d6",
+  "source_segment_path": "E:\\SamsungXR\\Checker_Harness\\outputs\\MH01_20261121_131547_f9d6\\source",
+  "execution_status": "SUCCESS",
+  "start_time": "2026-11-21T13:16:34.781285",
+  "end_time": "2026-11-21T13:16:38.010031",
+  "duration_seconds": 3.2287466526031494,
+  "error_details": null,
+  "tier_metadata": {
+    "tier": "T3",
+    "description": "2-second sensor degradation with exact clean pre- and post-regions",
+    "random_seed": 1113402597,
+    "degradation_start_time_s": 6.266467841329376,
+    "degradation_end_time_s": 8.266467841329376,
+    "degradation_duration_s": 2.0,
+    "start_timestamp_ns": 1403636588473555392,
+    "end_timestamp_ns": 1403636590468555392,
+    "original_window_samples": 400,
+    "degraded_window_samples": 352,
+    "spikes_injected": 5,
+    "stuck_samples": 51,
+    "dropped_single_samples": 22,
+    "burst_dropout_events": 2,
+    "total_dropped_samples": 50,
+    "duplicated_samples": 2,
+    "total_output_samples": 2953,
+    "clean_pre_samples": 1254,
+    "clean_post_samples": 1347,
+    "config": {
+      "accel_white_max": 0.25,
+      "gyro_white_max": 0.02,
+      "accel_bias_rw_max": 0.015,
+      "gyro_bias_rw_max": 0.001,
+      "scale_rw_max": 0.002,
+      "spike_prob_max": 0.008,
+      "accel_spike_mag": 8.0,
+      "gyro_spike_mag": 1.5,
+      "stuck_prob_max": 0.015,
+      "stuck_len": [
+        2,
+        8
+      ],
+      "drop_prob_max": 0.05,
+      "burst_prob_max": 0.005,
+      "burst_len": [
+        4,
+        25
+      ],
+      "dup_prob_max": 0.005
+    }
+  },
+  "degrader_configuration": {
+    "accel_white_max": 0.25,
+    "gyro_white_max": 0.02,
+    "accel_bias_rw_max": 0.015,
+    "gyro_bias_rw_max": 0.001,
+    "scale_rw_max": 0.002,
+    "spike_prob_max": 0.008,
+    "accel_spike_mag": 8.0,
+    "gyro_spike_mag": 1.5,
+    "stuck_prob_max": 0.015,
+    "stuck_len": [
+      2,
+      8
+    ],
+    "drop_prob_max": 0.05,
+    "burst_prob_max": 0.005,
+    "burst_len": [
+      4,
+      25
+    ],
+    "dup_prob_max": 0.005
+  },
+  "memory": {
+    "operation_name": "T3_run_009",
+    "limit_bytes": 8388608,
+    "limit_mb": 8.0,
+    "interpreter_baseline_bytes": 117473280,
+    "interpreter_baseline_mb": 112.031,
+    "algorithm_peak_bytes": 2048049,
+    "algorithm_peak_mb": 1.953,
+    "python_heap_peak_bytes": 1306105,
+    "native_buffers_peak_bytes": 741944,
+    "process_rss_peak_bytes": 118272000,
+    "process_rss_peak_mb": 112.793,
+    "status": "PASS",
+    "coverage": "FULL",
+    "methodology": "tracemalloc + native buffer tracking + process delta isolation",
+    "tracked_buffers": {
+      "source_imu_df": 168184,
+      "source_gt_df": 408264,
+      "t3_imu_input": 165496
+    },
+    "violation_details": null
+  }
+}
